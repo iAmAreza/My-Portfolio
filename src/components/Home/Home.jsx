@@ -1,7 +1,7 @@
 import React from 'react';
 import { GoArrowRight } from 'react-icons/go';
 import myimg from '../../assets/images/myimage.png';
-
+import { Link } from 'react-scroll';
 const Home = () => {
   return (
     <div
@@ -21,12 +21,12 @@ const Home = () => {
             applications for smaller screens.
           </p>
           <div className="flex justify-center md:justify-start">
-            <button className="group flex items-center cursor-pointer w-fit my-2 text-white bg-gradient-to-r from-cyan-500 to-blue-500 px-6 py-3 rounded-md text-sm">
+            <Link to='portfolio' smooth duration={500} className="group flex items-center cursor-pointer w-fit my-2 text-white bg-gradient-to-r from-cyan-500 to-blue-500 px-6 py-3 rounded-md text-sm">
               Portfolio
               <span className="group-hover:rotate-90 duration-100">
                 <GoArrowRight size={20} className="ml-2" />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
 
