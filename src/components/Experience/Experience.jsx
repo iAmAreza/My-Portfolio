@@ -1,9 +1,10 @@
-import html from '../../assets/images/html.png' 
+import html from '../../assets/images/html.png'
 import css from '../../assets/images/css.png' 
 import python from '../../assets/images/python.png' 
 import react from '../../assets/images/react.png' 
 import flask from '../../assets/images/flask.png' 
 import django from '../../assets/images/django.png' 
+
 
 
 function Experience() {
