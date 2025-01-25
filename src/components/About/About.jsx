@@ -1,5 +1,3 @@
-import React from 'react';
-
 const About = () => {
   return (
     <div
@@ -13,24 +11,10 @@ const About = () => {
           </p>
         </div>
         <p className="text-lg md:text-xl mt-8 md:mt-16 text-justify">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex vero
-          recusandae quod iusto similique, asperiores velit rerum, quis, commodi
-          odit fugiat. Ducimus culpa, aliquid animi ipsum sapiente laborum
-          doloremque quidem assumenda blanditiis, minus fugiat reiciendis! Est,
-          esse. Quis, repellendus animi iste a corporis quibusdam beatae quos,
-          dicta tempore ipsum consequatur.
+        I am Syed Ahmad Reza, a final-year undergraduate student in the Department of Computer Science and Engineering at CUET. From the very beginning, computer science has been a fascinating subject for me, as it challenges me to think creatively and solve problems innovatively. My journey started with competitive programming, where I improved my problem-solving skills by solving over 500 problems on various online platforms. This foundation led me to explore web development, starting with HTML, CSS, and JavaScript, and later advancing to Python, along with frameworks like Django, Flask and FastAPI to create dynamic web applications. I am deeply passionate about continuous learning and aspire to grow with the ever-evolving field of technology, contributing to meaningful advancements in the industry.
         </p>
 
         <br />
-
-        <p className="text-lg md:text-xl text-justify">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
-          repudiandae cumque in eaque vel soluta excepturi itaque consectetur
-          distinctio? Corrupti eaque assumenda rem voluptate architecto
-          necessitatibus laborum, dignissimos error nobis officiis dolorum hic
-          facilis in quas incidunt sit? Molestiae impedit sunt iste a laboriosam
-          sit autem tempora, expedita voluptatum libero.
-        </p>
       </div>
     </div>
   );

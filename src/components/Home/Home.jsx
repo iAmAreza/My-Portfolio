@@ -1,4 +1,3 @@
-import React from 'react';
 import { GoArrowRight } from 'react-icons/go';
 import myimg from '../../assets/images/myimage.png';
 import { Link } from 'react-scroll';
@@ -12,7 +11,7 @@ const Home = () => {
         {/* Text Section */}
         <div className="text-center md:text-left md:w-1/2">
           <h1 className="text-2xl sm:text-3xl font-bold mb-4 z-10">
-            I'm a Full Stack Developer and Machine Learning Enthusiast
+            {`I'm`} a Full Stack Developer and Machine Learning Enthusiast
           </h1>
           <p className="text-gray-400 mb-4 max-w-full sm:max-w-md text-sm sm:text-base z-10">
             I have done various projects on machine learning and built
